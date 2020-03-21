@@ -6,6 +6,7 @@ const path = require('path')
  * @param {*} dirpath 
  */
 const makeDir = (dirpath) => {
+  // 检查文件是否存在
   if (!fs.existsSync(dirpath)) {
     let pathtmp
     dirpath.split('/').forEach(dirname => {
@@ -23,6 +24,10 @@ const makeDir = (dirpath) => {
   }
   return true
 }
+
+// makeDir(`C:\\Users\\Administrator\\Desktop\\test-upload\\index.html`)
+// makeDir(`C:\\Users\\Administrator\\Desktop\\test-upload\\js`)
+// makeDir(`C:\\Users\\Administrator\\Desktop\\test-upload\\js\\vender`)
 
 module.exports = {
   makeDir
