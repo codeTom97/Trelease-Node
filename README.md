@@ -3,11 +3,11 @@
 `tip: 目前通过Trelease上传的项目, 会保存在与Trelease-node同一位置`
 
 ## 更新管理
-[x] 已全面兼容[Trelease2.1.4^](https://github.com/codeTom97/Trelease)自定义服务器模式
-[x] 加入pm2配置文件
-[] web操作界面
-[] 实现自动化部署
-[] 版本回滚, 发布日志
+- [x] 已全面兼容[Trelease2.1.4^](https://github.com/codeTom97/Trelease)自定义服务器模式
+- [x] 加入pm2配置文件
+- [ ] web操作界面
+- [ ] 实现自动化部署
+- [ ] 版本回滚, 发布日志
 
 
 ### 使用方法
