@@ -4,7 +4,7 @@ const catchError = async (ctx, next) => {
   try {    
     await next()
   } catch (error) {
-    console.log(error)
+
     const isHttpException = error instanceof HttpException
     // 异常处理
     if (isHttpException) {
